@@ -14,10 +14,10 @@ Please use and remix this code in anyway that helps your project.
 - Connecting wires
 - Small neodium magnet
 
-## Software
+## Software:
 - Arduino IDE
 
-## Concept
+## Concept:
 The Hall effect sensor acts as a button, switching ON when the magnet is close to the sensor (i.e. each revolution).
 The esp32 is programmed to count each time the switch turns on.
 Every minute, the data is uploaded to a googlesheet using an IFTTT webhook.
