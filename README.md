@@ -1,6 +1,8 @@
 # HamsterTach
 Code for an esp32/esp8266 based tachometer for a hamster wheel using a hall-effect sensor and uploading data to a Googlesheet via IFTTT.
-Made by Stu Patience, www.driverlesscrocodile.com
+Made 2021 by Stu Patience, www.driverlesscrocodile.com.
+
+Please use and remix this code in anyway that helps your project.
 
 ## Hardware:
 - esp32 or esp8266 (NodeMCU) microcontroller with wifi
