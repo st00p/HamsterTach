@@ -27,5 +27,3 @@ Every minute, the data is uploaded to a googlesheet using an IFTTT webhook.
 Made using code for button debounce created 21 Nov 2006  by David A. Mellis / modified 30 Aug 2011 by Limor Fried / modified 28 Dec 2012 by Mike Walters / modified 30 Aug 2016 by Arturo Guadalupiat at https://learn.adafruit.com/make-it-switch/debouncing 
 
 Instructions for IFTTT webhook to upload data to a googlesheet from: https://microcontrollerslab.com/esp32-esp8266-publish-sensor-readings-google-sheets-via-ifttt/
-
-Test edit of the code creating a new branch and pull to see if changes show up.
