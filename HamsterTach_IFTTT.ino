@@ -1,10 +1,11 @@
 // Code for HamsterWheel Tachometer using esp32/ep8266, Hall Effect sensor and uploading data to Googlesheet using IFTTT webhook.
 
-// Made using code for button debounce created 21 Nov 2006  by David A. Mellis / modified 30 Aug 2011 by Limor Fried / modified 28 Dec 2012 by Mike Walters / modified 30 Aug 2016 by Arturo Guadalupiat
+// Made by Stu Patience (www.driverlesscrocodile.com) using code for button debounce created 21 Nov 2006  by David A. Mellis / modified 30 Aug 2011 by Limor Fried / modified 28 Dec 2012 by Mike Walters / modified 30 Aug 2016 by Arturo Guadalupiat
 // at https://learn.adafruit.com/make-it-switch/debouncing 
 
 // and instructions for IFTTT webhook to upload data to a googlesheet from: https://microcontrollerslab.com/esp32-esp8266-publish-sensor-readings-google-sheets-via-ifttt/
-// 
+
+// Feel free to use, adapt and share this code however is most helpful to your project.
 
 
 //Notes from IFTTT (copied and pasted for reference):
@@ -49,7 +50,7 @@ int reportfreq = 60000;  // sets the frequency for reporting count, in milliseco
 // milliseconds, will quickly become a bigger number than can be stored in an int.
 unsigned long lastDebounceTime = 0;  // the last time the output pin was toggled
 unsigned long debounceDelay = 1;    // the debounce time in milliseconds; increase if the output flickers DECREASED TO 5 for hall effect switch
-unsigned long timer = 0;
+unsigned long timer = 0;             // initialise timer variable
 
 void setup() {
 
