@@ -1,4 +1,4 @@
-// Code for HamsterWheel Tachometer using esp32/ep8266, Hall Effect sensor and upoading data to Googlesheet using IFTTT webhook.
+// Code for HamsterWheel Tachometer using esp32/ep8266, Hall Effect sensor and uploading data to Googlesheet using IFTTT webhook.
 
 // Made using code for button debounce created 21 Nov 2006  by David A. Mellis / modified 30 Aug 2011 by Limor Fried / modified 28 Dec 2012 by Mike Walters / modified 30 Aug 2016 by Arturo Guadalupiat
 // at https://learn.adafruit.com/make-it-switch/debouncing 
